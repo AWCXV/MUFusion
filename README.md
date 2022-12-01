@@ -6,6 +6,9 @@ This is the code of the paper titled as "MUFusion: A general unsupervised image 
 - torch 1.9.1
 - scipy 1.2.0
 
+## Acknowledgement
+Code of this implementation is based on the DenseFuse: https://github.com/hli1221/densefuse-pytorch
+
 # Citation
 If this work is helpful to you, please cite it as:
 ```
