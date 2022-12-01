@@ -87,18 +87,16 @@ def train():
     all_pixel_loss3 = 0.
     all_grad_loss = 0.
     all_grad_loss2 = 0.
-    pow2 = 0;
     for e in tbar:
         print('Epoch %d.....' % e)
         # load training database
         patchesPaths,batches = utils.load_datasetPair(PatchPaths,batch_size);
         densefuse_model.train()
         count = 0
-        if (e>0):
-            pow2 = pow2+0.5;
         for batch in range(batches):
             image_paths = patchesPaths[batch * batch_size:(batch * batch_size + batch_size)]
             
+            #load image patches of this patch.
             image_ir = utils.get_train_images_auto(patchPrePath+"/IR",image_paths, mode="L");
             image_vi = utils.get_train_images_auto(patchPrePath+"/VIS",image_paths, mode="L");
             h = image_ir.shape[2];
