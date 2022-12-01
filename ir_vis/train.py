@@ -96,7 +96,7 @@ def train():
         for batch in range(batches):
             image_paths = patchesPaths[batch * batch_size:(batch * batch_size + batch_size)]
             
-            #load image patches of this patch.
+            #load image patches of this batch.
             image_ir = utils.get_train_images_auto(patchPrePath+"/IR",image_paths, mode="L");
             image_vi = utils.get_train_images_auto(patchPrePath+"/VIS",image_paths, mode="L");
             h = image_ir.shape[2];
