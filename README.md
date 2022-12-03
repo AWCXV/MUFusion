@@ -1,6 +1,8 @@
 # MUFusion
 This is the code of the paper titled as "MUFusion: A general unsupervised image fusion network based on memory unit".
 
+The paper can be found here: https://authors.elsevier.com/c/1gApR5a7-Gpg4Q
+
 ## Environment
 - Python 3.7.3
 - torch 1.9.1
