@@ -4,7 +4,6 @@ class args():
     # training args
     epochs = 10 
     batch_size = 48
-    dataset = "/data/Disk_A/chunyang/codeVFusionE2E/train2014/"
     trainNumber = 26295
     HEIGHT = 256
     WIDTH = 256
