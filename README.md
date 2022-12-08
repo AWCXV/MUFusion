@@ -14,7 +14,7 @@ Code of this implementation is based on the [DenseFuse](https://github.com/hli12
 # Citation
 If this work is helpful to you, please cite it as:
 ```
-@article{CHENG202380,
+@article{cheng2022mufusion,
   title = {MUFusion: A general unsupervised image fusion network based on memory unit},
   journal = {Information Fusion},
   volume = {92},
