@@ -1,5 +1,15 @@
-# Test
-Put your image pairs on the input_images directory and run the following code.
+# Infrared and visible image fusion
+
+## To test
+Put your image pairs in the "input_images" directory and run the following code. 
 ```
 python test_image.py
 ```
+You may need to modify related variables in "test_image.py" and the model name in "args_fusion.py"
+
+## To train
+Put the training patches in the "IV_patches" directory and run the following code.
+```
+python train.py
+```
+The training informaiton (number of samples, batch size ...) can be changed in the "args_fusion.py"
