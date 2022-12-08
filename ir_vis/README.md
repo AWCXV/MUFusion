@@ -1,6 +1,6 @@
 # Infrared and visible image fusion
 
-## To test
+## To test on the pre-trained model (TNO or RoadScene)
 Put your image pairs in the "input_images" directory and run the following code. 
 ```
 python test_image.py
