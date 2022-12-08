@@ -12,14 +12,15 @@ The paper can be found [here](https://authors.elsevier.com/c/1gApR5a7-Gpg4Q).
 Code of this implementation is based on the [DenseFuse](https://github.com/hli1221/densefuse-pytorch).
 
 # Citation
-```
 If this work is helpful to you, please cite it as:
+```
 @article{CHENG202380,
-title = {MUFusion: A general unsupervised image fusion network based on memory unit},
-journal = {Information Fusion},
-volume = {92},
-pages = {80-92},
-year = {2023},
-author = {Chunyang Cheng and Tianyang Xu and Xiao-Jun Wu}
+  title = {MUFusion: A general unsupervised image fusion network based on memory unit},
+  journal = {Information Fusion},
+  volume = {92},
+  pages = {80-92},
+  year = {2023},
+  publisher={Elsevier},
+  author = {Chunyang Cheng and Tianyang Xu and Xiao-Jun Wu}
 }
 ```
