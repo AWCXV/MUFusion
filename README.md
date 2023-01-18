@@ -3,6 +3,9 @@ This is the code of the paper titled as "MUFusion: A general unsupervised image 
 
 The paper can be found [here](https://authors.elsevier.com/c/1gApR5a7-Gpg4Q).
 
+## Usage
+Please enter the subfolder to read the detailed guidance.
+
 ## Environment
 - Python 3.7.3
 - torch 1.9.1
