@@ -1,7 +1,10 @@
 # MUFusion
 This is the code of the paper titled as "MUFusion: A general unsupervised image fusion network based on memory unit". 
 
-The paper can be found [here](https://authors.elsevier.com/c/1gApR5a7-Gpg4Q).
+The paper can be found [here](https://www.sciencedirect.com/science/article/abs/pii/S1566253522002202).
+
+## Usage
+Please enter the subfolder to read the detailed guidance.
 
 ## Environment
 - Python 3.7.3
