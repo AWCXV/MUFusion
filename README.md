@@ -14,7 +14,7 @@ Please enter the subfolder to read the detailed guidance.
 ## Acknowledgement
 Code of this implementation is based on the [DenseFuse](https://github.com/hli1221/densefuse-pytorch).
 
-## Contatact Informaiton
+## Contact Informaiton
 If you have any questions, please contact me at <chunyang_cheng@163.com>.
 
 # Citation
