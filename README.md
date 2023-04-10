@@ -19,7 +19,7 @@ python train.py
 ```
 The training informaiton (number of samples, batch size etc.) can be changed in the "args_fusion.py"
 
-The training data will be available on the Baidu Netdisk soon.
+The training datasets are available [here](https://drive.google.com/drive/folders/1Tf6wwgGhRE7X8g4pLVFAXBdSZdXfgogJ?usp=share_link).
 
 ## Environment
 - Python 3.7.3
