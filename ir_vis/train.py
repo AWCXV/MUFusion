@@ -43,7 +43,7 @@ def train():
             parm.requires_grad = False;
             
     #root dir for the training patches.
-    patchPrePath = "IV_patches";
+    patchPrePath = "IV_Patches";
     PatchPaths = utils.loadPatchesPairPaths()
 
     batch_size = args.batch_size
