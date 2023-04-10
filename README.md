@@ -26,7 +26,9 @@ The training informaiton (number of samples, batch size etc.) can be changed in 
 
 To create your own dataset and compare algorithms in the same environment, please refer to this [code](https://github.com/AWCXV/MUFusion/blob/main/ir_vis/IV_patches/Generating_patches.py) for generating the patches.
 
-The complete training patches will be avaiable [here](https://drive.google.com/drive/folders/1Tf6wwgGhRE7X8g4pLVFAXBdSZdXfgogJ?usp=share_link).
+Links to the original datasets: [TNO](https://pan.baidu.com/s/1GgzYfIA_Vs0oZbB_Kmh8vQ?pwd=18sb) (password：18sb), [RoadScene](https://github.com/hanna-xu/RoadScene), [Milti-exposure](https://github.com/csjcai/SICE), [Multi-focus](https://pan.baidu.com/s/1ciol2g8cAc-1Fp_UqA31eg?pwd=4js3) (password：4js3), [Medical](http://www.med.harvard.edu/AANLIB/home.html).
+
+The raw training patches will be available [here](https://drive.google.com/drive/folders/1Tf6wwgGhRE7X8g4pLVFAXBdSZdXfgogJ?usp=share_link).
 
 ## Contact Informaiton
 If you have any questions, please contact me at <chunyang_cheng@163.com>.
