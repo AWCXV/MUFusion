@@ -6,8 +6,11 @@ from scipy.misc import imread, imsave, imresize
 PATCH_SIZE = 128;
 PATCH_STRIDE = 12;
 
-#Original Dataset Size
+#Original image pairs
 num_image = 50;
+
+#Put the original images in the "IVIF_source/IR" & "IVIF_source/VIS" directories.
+#The augmented data will be put in the "./IR" and "./VIS" directories.
 
 prepath = "./"
 patchesIR = [];
