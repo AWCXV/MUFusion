@@ -12,6 +12,8 @@ python test_image.py
 ```
 You may need to modify related variables in "test_image.py" and the model name in "args_fusion.py"
 
+For calculating the image quality assessments, pleaser refer to this [repository](https://github.com/Linfeng-Tang/SeAFusion/tree/main/Evaluation).
+
 ### To train
 Put the training patches in the "IV_patches" directory and run the following code.
 ```
@@ -19,7 +21,8 @@ python train.py
 ```
 The training informaiton (number of samples, batch size etc.) can be changed in the "args_fusion.py"
 
-The training datasets are available [here](https://drive.google.com/drive/folders/1Tf6wwgGhRE7X8g4pLVFAXBdSZdXfgogJ?usp=share_link).
+To create your own dataset, please refer to this [code](https://github.com/AWCXV/MUFusion/blob/main/ir_vis/IV_patches/Generating_patches.py) for generating the image patches.
+- The training datasets are available [here](https://drive.google.com/drive/folders/1Tf6wwgGhRE7X8g4pLVFAXBdSZdXfgogJ?usp=share_link).
 
 ## Environment
 - Python 3.7.3
