@@ -131,7 +131,7 @@ def run_demo(model, infrared_path, visible_path, output_path_root, index, fusion
 
 def main():
 
-    test_path = "input_images/"
+    test_path = "test_images/"
 
     network_type = 'densefuse'
     fusion_type = 'auto'  # auto, fusion_layer, fusion_all

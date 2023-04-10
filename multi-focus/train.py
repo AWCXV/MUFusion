@@ -45,7 +45,7 @@ def train():
         for parm in vggFeatures[i].parameters():
             parm.requires_grad = False;
             
-    patchPrePath = "MFpatches";
+    patchPrePath = "MF_patches";
     PatchPaths = utils.loadPatchesPairPaths()
 
     batch_size = args.batch_size
@@ -101,8 +101,8 @@ def train():
         for batch in range(batches):
             image_paths = patchesPaths[batch * batch_size:(batch * batch_size + batch_size)]
             
-            image_ir = utils.get_train_images_auto(patchPrePath+"/ir",image_paths, mode="L");
-            image_vi = utils.get_train_images_auto(patchPrePath+"/vis",image_paths, mode="L");
+            image_ir = utils.get_train_images_auto(patchPrePath+"/IR",image_paths, mode="L");
+            image_vi = utils.get_train_images_auto(patchPrePath+"/VIS",image_paths, mode="L");
             h = image_ir.shape[2];
             w = image_ir.shape[3];
 
