@@ -28,11 +28,11 @@ To create your own dataset and compare algorithms in the same environment, pleas
 
 The complete training patches will be avaiable [here](https://drive.google.com/drive/folders/1Tf6wwgGhRE7X8g4pLVFAXBdSZdXfgogJ?usp=share_link).
 
-## Acknowledgement
-Code of this implementation is based on the [DenseFuse](https://github.com/hli1221/densefuse-pytorch).
-
 ## Contact Informaiton
 If you have any questions, please contact me at <chunyang_cheng@163.com>.
+
+## Acknowledgement
+Code of this implementation is based on the [DenseFuse](https://github.com/hli1221/densefuse-pytorch).
 
 # Citation
 If this work is helpful to you, please cite it as (BibTeX):
