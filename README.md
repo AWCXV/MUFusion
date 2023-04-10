@@ -15,7 +15,7 @@ python test_image.py
 ```
 You may need to modify related variables in "test_image.py" and the model name in "args_fusion.py"
 
-For calculating the image quality assessments, pleaser refer to this [repository](https://github.com/Linfeng-Tang/SeAFusion/tree/main/Evaluation).
+For calculating the image quality assessments, please refer to this [repository](https://github.com/Linfeng-Tang/SeAFusion/tree/main/Evaluation).
 
 ## To train
 Put the training patches in the "XX_Patches" directory and run the following prompt:
