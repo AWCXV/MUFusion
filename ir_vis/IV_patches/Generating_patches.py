@@ -3,6 +3,7 @@ import random
 import numpy as np
 from scipy.misc import imread, imsave, imresize
 
+#Modify the window size and stride to control the amount of final patches.
 PATCH_SIZE = 128;
 PATCH_STRIDE = 12;
 
