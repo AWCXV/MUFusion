@@ -45,7 +45,7 @@ def train():
         for parm in vggFeatures[i].parameters():
             parm.requires_grad = False;
             
-    patchPrePath = "MFpatches";
+    patchPrePath = "MF_patches";
     PatchPaths = utils.loadPatchesPairPaths()
 
     batch_size = args.batch_size
