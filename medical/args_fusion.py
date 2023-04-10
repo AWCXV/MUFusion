@@ -4,7 +4,7 @@ class args():
     # training args
     epochs = 10 
     batch_size = 48
-    trainNumber = 26295
+    trainNumber = 28072
     HEIGHT = 256
     WIDTH = 256
     PATCH_SIZE = 128;
