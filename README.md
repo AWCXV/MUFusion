@@ -17,6 +17,8 @@ You may need to modify related variables in "test_image.py" and the model name i
 
 For calculating the image quality assessments, please refer to this [repository](https://github.com/Linfeng-Tang/SeAFusion/tree/main/Evaluation).
 
+2023-5-25: RGB inference code for different tasks are avaialble now.
+
 ## To train
 Put the training patches in the "XX_Patches" directory and run the following prompt:
 ```
