@@ -6,7 +6,7 @@ The paper can be found [here](https://www.sciencedirect.com/science/article/abs/
 ## Environment
 - Python 3.7.3
 - torch 1.9.1
-- scipy 1.2.0
+- scipy 1.2.0 (alternatively, you can use the cv2.imared to replace the imread&imsave from scipy.misc)
 
 ## To test on the pre-trained model
 Put your image pairs in the "test_images" directory and run the following prompt: 
