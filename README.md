@@ -15,6 +15,8 @@ python test_image.py
 ```
 You may need to modify related variables in "test_image.py" and the model name in "args_fusion.py"
 
+Tips: If you have difficulty resolving the "imsave" from the scipy package, in all files, please replace "imread" with "cv2.imread(path,0)" & replace "imsave" with "cv2.imwrite(path, fuseImage)";
+
 For calculating the image quality assessments, please refer to this [repository](https://github.com/Linfeng-Tang/SeAFusion/tree/main/Evaluation).
 
 2023-5-25: RGB inference code for different tasks are avaialble now.
